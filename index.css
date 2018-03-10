@@ -1,0 +1,160 @@
+.main{
+  background-color:orange;
+  display: flex;
+  flex-direction: row;
+  }
+
+.profile img{
+  border-radius: 50%;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 3px #ddd;
+  height: auto;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.profile{
+
+  background-color:  #ec79c6;;
+    font-size: 30px;
+  padding: 1%;
+margin: 1%;
+width: 80%;
+}
+.contact{
+background-color: skyblue;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.content{
+  padding: 1%;
+  margin: 2%;
+  background-color: skyblue;
+
+}
+@media screen and (max-width:480px){
+  .main{
+    background-color: #99ddff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .profile img{
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 3px yellow;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  .profile{
+
+    background-color:#ffccd9;
+      font-size: 30px;
+    padding: 1%;
+  margin: 1%;
+
+  width: 100%;
+  text-align: center;
+
+  }
+  h5{
+    font-size: 20px;
+
+  }
+  .contact{
+
+  background-color: #d9ffcc;
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+@media screen and (min-width:481px)and (max-width:768px){
+  .main{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .profile img{
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 3px pink;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  .profile{
+
+    background-color: lightgreen;
+      font-size: 30px;
+    padding: 1%;
+  margin: 2%;
+  width: 100%;
+  }
+  .contact{
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+  .content{
+    padding: 1%;
+    margin: 2%;
+    background-color: grey;
+
+  }
+
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+  .main{
+    background-color:#ffffb3;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .profile img{
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 3px pink;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  .profile{
+
+    background-color:#ff99bb;
+      font-size: 30px;
+    padding: 1%;
+  margin: 2%;
+  width: 100%;
+  }
+  .contact{
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;fle
+  flex-wrap: wrap;
+  }
+  .content{
+    padding: 1%;
+    margin: 2%;
+    background-color: grey;
+
+  }

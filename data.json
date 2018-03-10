@@ -1,0 +1,39 @@
+ {
+  "basics":{
+    "photo":"download.png",
+    "name":"saranya",
+    "phone":"123456",
+    "email":"saranya@gmail.com",
+    "Address":"D/o krishna,addanki,prakasam district,AP"
+  },
+  "education" :[{
+    "course":"B.Tech(Computer science and engineering)",
+    "Institute":"CR REDDY Engineering college",
+    "data":["2015-2015","90%"]
+  },
+  {
+  "course":"intermediate(MPC)",
+  "Institute":"Sri Chaitanya college",
+  "data":["2013-2015","97%"]
+  },
+  {
+    "course":"SSC",
+    "Institute":"Sri chaitanya school",
+    "data":["2012-2013","97%"]
+  }
+],
+ "skills":[
+   {
+     "name":"languages",
+     "data":["c","java","php"]
+   },
+   {
+     "name":"webtechnologies",
+     "data":["html","css","php"]
+   },
+   {
+     "name":"os",
+     "data":["windows","linux","unix"]
+   }
+ ]
+}
